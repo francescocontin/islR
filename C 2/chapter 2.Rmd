@@ -1,0 +1,39 @@
+---
+title: "ISL Chapter 2"
+output: html_notebook
+---
+Assign values to a vector through the *concatenate* function
+
+```{r}
+x <- c(1,3,2,5)
+x
+```
+
+
+p.s. we can also assign values using = instead of <-
+
+```{r}
+x = c(1,6,2)
+y = c(1,4,3)
+x
+y
+```
+
+Using length function to specify the length of an object. We can do operations with vectors as long as they are the same length. To clear the whole workspace use rm(list = ls())
+
+
+```{r}
+length(x)
+
+x + y
+
+rm(list = ls())
+```
+
+Matrix function
+
+```{r}
+x <- matrix(data = c(1,2,3,4),nrow = 2,ncol = 2)
+x
+```
+
